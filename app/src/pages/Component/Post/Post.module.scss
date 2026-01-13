@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap');
+.postWrapper{
+    padding: 32px;
+    & p{
+        padding-bottom: 8px;
+        font:500 14px 'Inter';
+        color: rgba(76, 76, 76, 1);
+        & span{
+            color: rgba(89, 46, 169, 1);
+        }
+    }
+    & h1{
+        font:700 24px 'Sen';
+        color: rgba(35, 37, 54, 1);
+    }
+}
+.postWrapper:hover{
+    background-color: rgba(251, 246, 234, 1);
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "/bussines.png",
+    "title": "Business",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  },
+  {
+    "id": 2,
+    "img": "/shuttle.png",
+    "title": "Startup",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  },
+  {
+    "id": 3,
+    "img": "/economy.png",
+    "title": "Economy",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  },
+  {
+    "id": 4,
+    "img": "/cyborg.png",
+    "title": "Technology",
+    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+  }
+]

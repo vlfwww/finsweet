@@ -1,0 +1,74 @@
+.mainWrapper {
+  background-color: rgba(35, 37, 54, 1);
+  margin: 0 auto;
+  padding: 59px 80px;
+  & .footerWrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    & .topPart {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .leftSide {
+        font: 700 36px "Sen";
+        color: rgba(255, 255, 255, 1);
+      }
+      & .rightSide {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        & a {
+          font: 400 16px "Inter";
+          color: rgba(255, 255, 255, 1);
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    & .mainPart {
+      margin-top: 134px;
+      display: flex;
+      justify-content: space-between;
+      & p {
+        font: 700 36px "Sen";
+        color: rgba(255, 255, 255, 1);
+        max-width: 562px;
+      }
+      & .subscribeWrapper {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        & input {
+          width: 323px;
+          height: 56px;
+          padding: 14 24px;
+          border: 1px solid rgba(76, 76, 76, 1);
+          text-align: center;
+          font: 400 16px "Inter";
+          color: rgba(109, 110, 118, 1);
+          background-color: transparent;
+        }
+        & button {
+          background-color: rgba(255, 208, 80, 1);
+          font: 700 18px "Sen";
+          color: rgba(35, 37, 54, 1);
+          border: none;
+          padding: 16px 48px;
+        }
+      }
+    }
+    & .bottomPart {
+      margin-top: 128px;
+      font: 400 16px "Inter";
+      color: rgba(109, 110, 118, 1);
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      & p{
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

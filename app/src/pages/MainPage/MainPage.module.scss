@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap");
+@mixin postTitle {
+  font: 700 36px "Sen";
+  color: rgba(35, 37, 54, 1);
+}
+.mainBigPageWrapper {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("./img/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1550px;
+  & .mainPageWrapper {
+    max-width: 804px;
+    padding: 128px 80px;
+
+    & .posted {
+      font: 600 16px "Inter";
+      color: rgba(255, 255, 255, 1);
+      text-transform: uppercase;
+      & span {
+        font-weight: 900;
+      }
+    }
+    & h1 {
+      font: 700 56px "Sen";
+      color: rgba(255, 255, 255, 1);
+      margin: 24px 0;
+    }
+    & .authorDate,
+    .textInfo {
+      font: 400 16px "Inter";
+      color: rgba(255, 255, 255, 1);
+      & span {
+        color: rgba(255, 208, 80, 1);
+      }
+    }
+    & .textInfo {
+      margin: 16px 0 48px 0;
+    }
+    & button {
+      background-color: rgba(255, 208, 80, 1);
+      font: 700 18px "Sen";
+      color: rgba(35, 37, 54, 1);
+      border: none;
+      padding: 16px 48px;
+    }
+  }
+}
+.postsWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  & .leftSide {
+    max-width: 733px;
+    & p {
+      @include postTitle;
+      margin-bottom: 32px;
+    }
+    & .lineWrapper {
+      border: none;
+      box-shadow: 0 0 0 0.5px rgba(109, 110, 118, 0.5);
+      padding: 32px;
+      & .nameDate {
+        font: 500 14px "Inter";
+        color: rgba(76, 76, 76, 1);
+        margin: 32px 0 16px;
+        & span {
+          color: rgba(89, 46, 169, 1);
+        }
+      }
+      & .title {
+        font: 700 28px "Sen";
+        color: rgba(35, 37, 54, 1);
+      }
+      & .dopInfo {
+        font: 400 16px "Inter";
+        color: rgba(109, 110, 118, 1);
+        margin: 16px 0 32px;
+      }
+      & button {
+        background-color: rgba(255, 208, 80, 1);
+        font: 700 18px "Sen";
+        color: rgba(35, 37, 54, 1);
+        border: none;
+        padding: 16px 48px;
+      }
+    }
+  }
+  & .rightSide {
+    & .flexWrapper {
+      display: flex;
+      margin-bottom: 32px;
+      justify-content: space-between;
+      max-width: 517px;
+      align-items: center;
+      & p {
+        @include postTitle;
+      }
+      & a {
+        text-decoration: none;
+        font: 400 16px "Inter";
+        color: rgba(89, 46, 169, 1);
+      }
+    }
+  }
+}
+.aboutWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  .patternLine {
+    display: flex;
+    height: 23px;
+
+    .yellowPart {
+      background-color: #ffd050;
+      flex: 1;
+    }
+
+    .purplePart {
+      background-color: #592ea9;
+      width: 25%;
+    }
+  }
+  & .colorWrapper {
+    background-color: rgba(244, 240, 248, 1);
+    padding: 98px 108px;
+    & .wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      & .leftSide,
+      .rightSide {
+        max-width: 515px;
+        & .title {
+          font: 600 16px "Inter";
+          text-transform: uppercase;
+          color: rgba(35, 37, 54, 1);
+        }
+        & .mainText {
+          font: 700 36px "Sen";
+          color: rgba(35, 37, 54, 1);
+          margin: 24px 0 16px;
+        }
+        & .additionInfo {
+          font: 400 16px "Inter";
+          color: rgba(109, 110, 118, 1);
+        }
+      }
+      & .rightSide .mainText {
+        font-size: 28px;
+      }
+    }
+    & a {
+      font: 700 18px "Sen";
+      color: rgba(89, 46, 169, 1);
+      text-decoration: none;
+    }
+  }
+}
+.categoryWrapper {
+  max-width: 1440px;
+  margin: 128px auto;
+  & .title {
+    text-align: center;
+    @include postTitle;
+    margin-bottom: 48px;
+  }
+  & .flexWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px
+  }
+}
+.startedWrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    & .imgWrapper{
+        width:80%;
+        display:flex;
+        justify-content:center;
+        margin-bottom:48px;
+        & img{
+            max-width:100%;
+            height:auto;
+        }
+    }
+    & .textWrapper{
+        padding: 50px;
+        max-width: 706px;
+        position: relative;
+        left:574px;
+        bottom:521px;
+        background-color: rgba(255, 255, 255, 1);
+        & .title{
+            font:600 16px "Inter";
+            text-transform:uppercase;
+            color: rgba(35, 37, 54, 1);
+        }
+        & .mainText{
+            font:700 48px "Sen";
+            color: rgba(35, 37, 54, 1);
+            margin:24px 0 16px;
+        }
+        & .additionalText{
+            font: 400 16px "Inter";
+            color: rgba(109, 110, 118, 1);
+            margin-bottom: 32px;
+        }
+        & button{
+            background-color: rgba(255, 208, 80, 1);
+            font: 700 18px "Sen";
+            color: rgba(35, 37, 54, 1);
+            border: none;
+            padding: 16px 48px;
+        }
+    }
+}
+.authorsWrapper{
+    max-width: 1440px;
+    margin: -401px auto 0; 
+    & .title{
+        text-align: center;
+        @include postTitle;
+        margin-bottom: 48px;
+    }
+    & .flexWrapper{
+        display: flex;
+        justify-content: center;
+        gap:32px
+    }
+}
+.logoImg{
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 128px auto;
+    max-width: 1440px;
+}
+.reviews{
+    max-width: 1440px;
+    margin: 0 auto 80px;
+    display: flex;
+    justify-content: center;
+    gap:96px;
+    padding: 80px;
+    background-color: rgba(251, 246, 234, 1);
+    & .leftSide{
+        padding-right: 80px;
+        border-right: 1px solid rgba(109, 110, 118, 1);
+        & .title{
+            font:600 16px "Inter";
+            text-transform:uppercase;
+            color: rgba(35, 37, 54, 1);
+        }
+        & .mainText{
+            font:700 36px "Sen";
+            color: rgba(35, 37, 54, 1);
+            margin:12px 0 16px;
+        }
+        & .additionalText{
+            font: 400 16px "Inter";
+            color: rgba(35, 37, 54, 1);
+        }
+    }
+    & .rightSide{
+        & .reviewText{
+            color: rgba(35, 37, 54, 1);
+            font: 700 24px "Sen";
+            margin-bottom: 121px;
+            max-width: 469px;
+        }
+        & .bottomWrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            & .personInfo{
+                display: flex;
+                align-items: center;
+                gap:16px;
+                & .textInfo{
+                    & .name{
+                        font: 700 24px "Sen";
+                        color: rgba(35, 37, 54, 1);
+                    }
+                    & .sity{
+                        font: 400 16px "Inter";
+                        color: rgba(109, 110, 118, 1);
+                    }
+                }
+            }
+            & .navigation{
+                display: flex;
+                gap:24px;
+                & .leftArrow, .rightArrow{
+                    cursor: pointer;
+                    background-color: rgba(255, 255, 255, 1);
+                    border-radius: 100px;
+                    padding: 8px;
+                    color: rgba(35, 37, 54, 1);
+                    font: 700 30px "Inter";
+                    width: 48px;
+                    height: 48px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                & .leftArrow:hover, .rightArrow:hover{
+                    box-shadow: 0 0 0 1px rgba(89, 46, 169, 1);
+                    background-color: rgba(35, 37, 54, 1);
+                    color: rgba(244, 244, 244, 1);
+                    transform: scale(1.2);
+                    transition: transform 0.8s ease;
+                }
+            }
+        }
+    }
+}
+.joinUsWrapper{
+    max-width: 414px;
+    margin: 0 auto;
+    padding: 80px;
+    text-align: center;
+    & .title{
+        font:700 36px "Sen";
+        color: rgba(35, 37, 54, 1);
+    }
+    & .info{
+        font:400 16px "Inter";
+        color: rgba(109, 110, 118, 1);
+        margin:16px 0 32px;
+    }
+    & button{
+        background-color:rgba(255, 208, 80, 1);
+        font: 700 18px "Sen";
+        color: rgba(35, 37, 54, 1);
+        border: none;
+        padding: 16px 48px;
+    }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "img": "/author1.png",
+    "name": "Floyd Miles",
+    "role": "Content Writer @Company"
+  },
+  {
+    "id": 2,
+    "img": "/author2.png",
+    "name": "Dianne Russell",
+    "role": "Content Writer @Company"
+  },
+  {
+    "id": 3,
+    "img": "/author3.png",
+    "name": "Jenny Wilson",
+    "role": "Content Writer @Company"
+  },
+  {
+    "id": 4,
+    "img": "/author4.png",
+    "name": "Leslie Alexander",
+    "role": "Content Writer @Company"
+  }
+]

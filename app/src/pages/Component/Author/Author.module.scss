@@ -1,0 +1,30 @@
+.wrapper{
+    background-color: rgba(244, 244, 244, 1);
+    text-align: center;
+    padding: 40px 64px;
+    max-width: 296px;
+    & .imgWrapper{
+        margin-bottom: 20px;
+    }
+    & .name{
+        font:700 28px "Sen";
+        color: rgba(35, 37, 54, 1);
+    }
+    & .role{
+        font:400 14px "Inter";
+        color: rgba(109, 110, 118, 1);
+        margin: 5px 0 20px;
+    }
+    & .socials{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        & img{
+            cursor: pointer;
+        }
+    }
+}
+.wrapper:hover{
+    background-color: rgba(251, 246, 234, 1);
+    transition: background-color 0.3s ease;
+}

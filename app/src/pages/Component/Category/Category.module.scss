@@ -1,0 +1,28 @@
+.wrapper{
+    border: none;
+    box-shadow: 0 0 0 0.5px rgba(109, 110, 118, 0.5);
+    max-width: 296px;
+    padding: 32px;
+    & .imgWrapper{
+        background-color: rgba(251, 246, 234, 1);
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    & .title{
+        font: 700 28px 'Sen';
+        color: rgba(35, 37, 54, 1);
+        margin: 16px 0 4px;
+    }
+    & .info{
+        font:400 16 'Inter';
+        color: rgba(109, 110, 118, 1);
+    }
+}
+.wrapper:hover{
+    background-color: rgba(255, 208, 80, 1);
+    transition: background-color 0.3s ease;
+}
