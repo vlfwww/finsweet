@@ -38,6 +38,7 @@ function BlogPage() {
           {posts.map((post) => (
             <BlogPostPart
               key={post.id}
+              id={post.id}
               img={post.img}
               category={post.category}
               title={post.title}

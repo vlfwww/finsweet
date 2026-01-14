@@ -1,7 +1,8 @@
 import style from './Post.module.scss';
+import { Link } from 'react-router-dom';
 function Post(obj){
     return (
-        <div className={style.wrapper}>
+        <Link to={`/post/${obj.id}`} className={style.wrapper}>
             <div className={style.leftSide}>
                 <img src={obj.img} alt="Image"/>
             </div>
@@ -10,7 +11,7 @@ function Post(obj){
                 <p className={style.title}>{obj.title}</p>
                 <p className={style.description}>{obj.description}</p>
             </div>
-        </div>
+        </Link>
     )
 }
 export default Post;

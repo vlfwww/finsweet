@@ -60,7 +60,7 @@ function MainPage() {
         <div className={style.rightSide}>
           <div className={style.flexWrapper}>
             <p>All Posts</p>
-            <Link>View All</Link>
+            <Link to='/blog'>View All</Link>
           </div>
           {posts.map((post) => (
             <Post

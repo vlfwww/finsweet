@@ -1,47 +1,162 @@
 [
   {
     "id": 1,
+    "authorId": 1,
     "category": "TECHNOLOGY",
+    "categoryImg": "/cyborg.png",
+    "category_tag": "Technology",
+    "date": "23rd August 2021",
+    "display_date": "Aug 23, 2021",
     "img": "/post1.png",
-    "name": "John Doe",
-    "date": "Aug 23, 2021",
     "title": "8 Figma design systems that you can download for free today.",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    "description": "Explore the best Figma design systems to speed up your workflow and maintain consistency across projects.",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Why Design Systems are essential for modern product teams"
+      },
+      {
+        "type": "paragraph",
+        "text": "A design system is more than just a library of buttons and colors; it is a single source of truth for your entire team. By using a pre-built Figma design system, you eliminate the need to reinvent the wheel every time you start a new project. This approach allows designers to focus on user experience and complex logic rather than pixel-pushing. In this article, we've gathered eight professional systems that feature advanced auto-layout 3.0, comprehensive component properties, and dark mode support. These systems are used by companies like Uber, Airbnb, and Microsoft to scale their products without losing visual quality. Utilizing these tools ensures that your developers receive clear, consistent specifications, which significantly reduces the time spent on QA and front-end implementation."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Material Design 3.0 Kits — The gold standard for Android and cross-platform web apps with deep customization options.",
+          "Ant Design System — A massive library with thousands of components specifically tailored for complex enterprise dashboards.",
+          "Tailwind UI for Figma — Perfectly synced with the Tailwind CSS framework for seamless handoff to developers.",
+          "Untitled UI — One of the most popular and largest UI kits in the Figma community today, known for its clean aesthetics.",
+          "Atlassian Design System — Great for teams building productivity tools and collaborative software environments.",
+          "Shopify Polaris — The go-to choice for e-commerce projects and merchant-facing applications.",
+          "IBM Carbon — A robust, accessible system focused on data visualization and technical clarity.",
+          "Base Web (Uber) — A minimalist system designed for high-performance applications and rapid prototyping."
+        ]
+      }
+    ]
   },
   {
     "id": 2,
+    "authorId": 2,
     "category": "BUSINESS",
+    "categoryImg": "/bussines.png",
+    "category_tag": "Business",
+    "date": "15th September 2021",
+    "display_date": "Sep 15, 2021",
     "img": "/post2.png",
-    "name": "Jane Wilson",
-    "date": "Sep 15, 2021",
     "title": "How to build a powerful portfolio that gets you hired by top companies.",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    "description": "Learn the secrets of creating a portfolio that tells a story and proves your value to potential employers.",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Mastering the art of digital storytelling through your work"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most designers make the mistake of treating their portfolio as a simple gallery of images. However, top-tier recruiters from companies like Google or Apple are looking for problem solvers, not just decorators. Your portfolio should clearly articulate the 'Why' behind every decision. Start by describing the initial challenge, the research you conducted, and the various iterations you went through before reaching the final solution. Including 'failed' attempts can actually be beneficial, as it shows your critical thinking and ability to pivot based on data. Remember to highlight your specific role in team projects and provide measurable results, such as 'increased conversion by 15%' or 'reduced user churn.' A clean, fast-loading website with a clear focus on your best 3-4 projects is always better than a cluttered site with a dozen mediocre ones."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Focus on Case Studies — Don't just show the final UI; show the wireframes, user flows, and research findings.",
+          "Personal Brand — Ensure your portfolio reflects your unique design style and personality.",
+          "Mobile Optimization — Many recruiters will view your site on their phones; make sure it's fully responsive.",
+          "Call to Action — Make it incredibly easy for employers to find your email, resume, and LinkedIn profile."
+        ]
+      }
+    ]
   },
   {
     "id": 3,
+    "authorId": 3,
     "category": "STARTUP",
+    "categoryImg": "/shuttle.png",
+    "category_tag": "Startup",
+    "date": "1st October 2021",
+    "display_date": "Oct 01, 2021",
     "img": "/post3.png",
-    "name": "Alex Johnson",
-    "date": "Oct 01, 2021",
     "title": "10 CSS tricks that will change the way you code your layouts forever.",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    "description": "Unlock the full potential of modern CSS with these advanced techniques and layout hacks.",
+    "content": [
+      {
+        "type": "heading",
+        "text": "Pushing the boundaries of modern CSS architecture"
+      },
+      {
+        "type": "paragraph",
+        "text": "The era of relying solely on JavaScript for complex layouts and animations is over. Modern CSS properties like Container Queries, Subgrid, and Logical Properties have revolutionized how we approach responsive design. By moving more logic into your stylesheets, you create faster, more accessible, and more maintainable websites. For instance, using CSS Variables (Custom Properties) allows you to implement theme switching (Light/Dark mode) with just a few lines of code. Additionally, advanced functions like clamp() and minmax() enable fluid typography and flexible grids that adapt perfectly to any screen size without the need for excessive media queries. Understanding these 'tricks' isn't about shortcuts; it's about leveraging the full power of the browser's rendering engine to create professional-grade user interfaces."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Aspect-Ratio Property — Maintain perfect proportions for images and videos without old-school padding hacks.",
+          "CSS Grid Subgrid — Inherit grid tracks from parent elements for perfectly aligned nested layouts.",
+          "Scroll Snap — Create native-feeling sliders and galleries without a single line of JavaScript.",
+          "Container Queries — Style elements based on the size of their parent container rather than the viewport.",
+          "Isolating Styles with @scope — Prevent style leakage and keep your CSS modular and clean."
+        ]
+      }
+    ]
   },
   {
     "id": 4,
+    "authorId": 4,
     "category": "ECONOMY",
+    "categoryImg": "/economy.png",
+    "category_tag": "Economy",
+    "date": "12th November 2021",
+    "display_date": "Nov 12, 2021",
     "img": "/post4.png",
-    "name": "Andrew Jonson",
-    "date": "Nov 12, 2021",
     "title": "The importance of white space in UI design and how to use it correctly.",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    "description": "Discover why the space between elements is just as important as the elements themselves.",
+    "content": [
+      {
+        "type": "heading",
+        "text": "White space as a functional tool for user psychology"
+      },
+      {
+        "type": "paragraph",
+        "text": "White space, often called negative space, is the backbone of good visual hierarchy. It is not just 'empty' space; it is a powerful tool used to reduce cognitive load and guide the user through a digital experience. When a layout is too crowded, users feel overwhelmed and struggle to identify the most important information. By strategically increasing the space around your call-to-action buttons or between sections, you create a sense of elegance and professionalism. Furthermore, white space improves readability by giving the text room to 'breathe,' making it easier for the eye to track lines of copy. In high-end design, white space is often used to convey luxury and focus, whereas tighter layouts are associated with information-dense environments like news sites or data dashboards. Finding the right balance is the hallmark of an expert designer."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Macro White Space — The space between large layout elements like sections, columns, and margins.",
+          "Micro White Space — The tiny gaps between lines of text, letters, and smaller UI components like icons.",
+          "Active White Space — Intentional gaps used to create focus and lead the eye to specific content.",
+          "Passive White Space — Natural gaps occurring in text or around images that maintain basic readability."
+        ]
+      }
+    ]
   },
   {
     "id": 5,
+    "authorId": 1,
     "category": "STARTUP",
+    "categoryImg": "/shuttle.png",
+    "category_tag": "Startup",
+    "date": "10th January 2022",
+    "display_date": "Jan 10, 2022",
     "img": "/post1.png",
-    "name": "Floyd Miles",
-    "date": "Jan 10, 2022",
     "title": "Design tips for designers that cover everything you need",
-    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+    "description": "A comprehensive guide to the essential principles and habits that define a successful designer.",
+    "content": [
+      {
+        "type": "heading",
+        "text": "The core principles of sustainable and ethical design"
+      },
+      {
+        "type": "paragraph",
+        "text": "Becoming a great designer requires more than just mastering software like Figma or Adobe CC. It requires a deep understanding of human behavior and accessibility. To stay relevant in a fast-paced industry, you must adopt a mindset of continuous learning. This means staying updated on WCAG accessibility standards to ensure your designs work for everyone, including those with visual or motor impairments. Additionally, consistency is key; using a shared set of rules for typography and spacing creates a cohesive experience that builds trust with the user. Beyond technical skills, soft skills like communication and the ability to accept constructive criticism are what truly separate senior designers from juniors. Your job is to be an advocate for the user while balancing the business goals of your company or client."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Master Typography — Learn the difference between serif and sans-serif and how to create a clear type scale.",
+          "Color Theory — Understand how colors affect mood and ensure you have enough contrast for readability.",
+          "User Testing — Never assume your design is perfect; always validate your ideas with real users.",
+          "Stay Organized — Use clean layer naming and components to make your files easy for developers to use."
+        ]
+      }
+    ]
   }
 ]
