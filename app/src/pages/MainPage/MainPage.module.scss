@@ -321,25 +321,3 @@
         }
     }
 }
-.joinUsWrapper{
-    max-width: 414px;
-    margin: 0 auto;
-    padding: 80px;
-    text-align: center;
-    & .title{
-        font:700 36px "Sen";
-        color: rgba(35, 37, 54, 1);
-    }
-    & .info{
-        font:400 16px "Inter";
-        color: rgba(109, 110, 118, 1);
-        margin:16px 0 32px;
-    }
-    & button{
-        background-color:rgba(255, 208, 80, 1);
-        font: 700 18px "Sen";
-        color: rgba(35, 37, 54, 1);
-        border: none;
-        padding: 16px 48px;
-    }
-}

@@ -3,6 +3,7 @@ import Footer from "../Component/Footer/Footer";
 import Post from "../Component/Post/Post";
 import Category from "../Component/Category/Category";
 import Author from "../Component/Author/Author";
+import Join from "../Component/JoinComponent/Join";
 
 import style from "./MainPage.module.scss";
 import { Link } from "react-router-dom";
@@ -161,9 +162,7 @@ function MainPage() {
         </div>
       </section>
       <section className={style.joinUsWrapper}>
-          <p className={style.title}>Join our team to be a part of our story</p>
-          <p className={style.info}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-          <button>Join Now</button>
+          <Join/>
       </section>
       <Footer/>
     </main>

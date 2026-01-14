@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap");
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    & .leftSide{
+        width: 490px;
+        & img{
+            width: 100%;
+        }
+    }
+    & .rightSide{
+        max-width: 624px;
+        & .category{
+            font:600 16px 'Inter';
+            color: rgba(89, 46, 169, 1);
+        }
+        & .title{
+            font:700 36px 'Sen';
+            color: rgba(35, 37, 54, 1);
+            margin: 20px 0 16px;
+        }
+        & .description{
+            font: 400 16pxn 'Inter';
+            color: rgba(109, 110, 118, 1);
+        }
+    }
+}

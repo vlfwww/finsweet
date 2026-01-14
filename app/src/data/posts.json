@@ -1,26 +1,47 @@
 [
   {
     "id": 1,
+    "category": "TECHNOLOGY",
+    "img": "/post1.png",
     "name": "John Doe",
     "date": "Aug 23, 2021",
-    "title": "8 Figma design systems that you can download for free today."
+    "title": "8 Figma design systems that you can download for free today.",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
   },
   {
     "id": 2,
+    "category": "BUSINESS",
+    "img": "/post2.png",
     "name": "Jane Wilson",
     "date": "Sep 15, 2021",
-    "title": "How to build a powerful portfolio that gets you hired by top companies."
+    "title": "How to build a powerful portfolio that gets you hired by top companies.",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
   },
   {
     "id": 3,
+    "category": "STARTUP",
+    "img": "/post3.png",
     "name": "Alex Johnson",
     "date": "Oct 01, 2021",
-    "title": "10 CSS tricks that will change the way you code your layouts forever."
+    "title": "10 CSS tricks that will change the way you code your layouts forever.",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
   },
   {
     "id": 4,
+    "category": "ECONOMY",
+    "img": "/post4.png",
     "name": "Andrew Jonson",
     "date": "Nov 12, 2021",
-    "title": "The importance of white space in UI design and how to use it correctly."
+    "title": "The importance of white space in UI design and how to use it correctly.",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+  },
+  {
+    "id": 5,
+    "category": "STARTUP",
+    "img": "/post1.png",
+    "name": "Floyd Miles",
+    "date": "Jan 10, 2022",
+    "title": "Design tips for designers that cover everything you need",
+    "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
   }
 ]
