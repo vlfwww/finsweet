@@ -22,5 +22,29 @@
     "img": "/author4.png",
     "name": "Leslie Alexander",
     "role": "Content Writer @Company"
+  },
+  {
+    "id": 5,
+    "img": "/author5.png",
+    "name": "Guy Hawkins",
+    "role": "Content Writer @Company"
+  },
+  {
+    "id": 6,
+    "img": "/author6.png",
+    "name": "Eleanor Pena",
+    "role": "Content Writer @Company"
+  },
+  {
+    "id": 7,
+    "img": "/author7.png",
+    "name": "Robert Fox",
+    "role": "Content Writer @Company"
+  },
+  {
+    "id": 8,
+    "img": "/author8.png",
+    "name": "Jacob Jones",
+    "role": "Content Writer @Company"
   }
 ]

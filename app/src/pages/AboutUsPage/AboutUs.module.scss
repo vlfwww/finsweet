@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap");
+.bigMainWrapper {
+  & main {
+    margin: 0 auto;
+    & .preview {
+      margin: 0 auto;
+      max-width: 1133px;
+      position: relative;
+      bottom: -60px;
+      & .flexWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .leftSide {
+          max-width: 496px;
+          background-color: rgba(255, 255, 255, 1);
+          padding: 64px;
+          & .title {
+            font: 500 16px "Inter";
+            color: rgba(35, 37, 54, 1);
+          }
+          & .mainText {
+            font: 700 48px "Sen";
+            color: rgba(35, 37, 54, 1);
+          }
+        }
+        & .rightSide {
+          color: rgba(76, 76, 76, 1);
+          font: 400 16px "Inter";
+          max-width: 477px;
+        }
+      }
+    }
+    & .mainPoints {
+      background-image: url("/photo-of-woman-wearing-eyeglasses-3184405.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 444px;
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      & .numbers {
+        position: relative;
+        left: 109px;
+        background-color: rgba(255, 208, 80, 1);
+        max-width: 630px;
+        display: flex;
+        justify-content: center;
+        gap: 68px;
+        padding: 32px 48px;
+        & div {
+          color: rgba(35, 37, 54, 1);
+          & .num {
+            font: 700 56px "Sen";
+          }
+          & .text {
+            font: 400 16px "Inter";
+          }
+        }
+      }
+      & .lines {
+        width: 100%;
+        display: flex;
+        & .purple {
+          width: 25%;
+          height: 23px;
+          background-color: rgba(89, 46, 169, 1);
+        }
+        & .yellow {
+          width: 75%;
+          height: 23px;
+          background-color: rgba(255, 208, 80, 1);
+        }
+      }
+    }
+    & .missionVision {
+      max-width: 1440px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .left,
+      .right {
+        max-width: 516px;
+        background-color: rgba(244, 240, 248, 1);
+        padding: 128px 108px;
+        & .mainText {
+          font: 700 28px "Sen";
+          color: rgba(35, 37, 54, 1);
+          margin: 24px 0 16px 0;
+        }
+        & .title {
+          font: 600 16px "Inter";
+          color: rgba(35, 37, 54, 1);
+          text-transform: uppercase;
+        }
+        & .additionalText {
+          font: 400 16px "Inter";
+          color: rgba(76, 76, 76, 1);
+        }
+      }
+    }
+    & .team,
+    .blog {
+      max-width: 1440px;
+      margin: 128px auto 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & .left,
+      .right {
+        max-width: 619px;
+        & .title {
+          font: 700 36px "Sen";
+          color: rgba(35, 37, 54, 1);
+        }
+        & .mainInfo {
+          font: 700 24px "Sen";
+          color: rgba(35, 37, 54, 1);
+          margin: 16px 0;
+        }
+        & .additionalText {
+          font: 400 16px "Inter";
+          color: rgba(35, 37, 54, 1);
+        }
+      }
+    }
+    & .blog .left,
+    .team .right {
+      max-width: 624px;
+      & img {
+        width: 100%;
+      }
+    }
+    .authorsWrapper {
+      max-width: 1440px;
+      margin: 91px auto 0;
+      & .title {
+        text-align: center;
+        font: 700 36px "Sen";
+        color: rgba(35, 37, 54, 1);
+        margin-bottom: 48px;
+      }
+      & .flexWrapper {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
